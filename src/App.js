@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import './App.css';
 import image1 from './images/1.jpeg';
+import image2 from './images/2.jpeg';
 
 // 定义文章数据
 const articles = [
-  { id: 1, title: '神经网络', image: image1, link: '/neural-networks' },
-  { id: 2, title: '深度学习', image: 'https://via.placeholder.com/300x300.png?text=深度学习', link: '/deep-learning' },
+  { id: 1, title: '美丽老婆', image: image1, link: '/neural-networks' },
+  { id: 2, title: '美丽老婆', image: image2, link: '/deep-learning' },
   { id: 3, title: '自然语言处理', image: 'https://via.placeholder.com/300x300.png?text=自然语言处理', link: '/nlp' },
   { id: 4, title: '机器学习', image: 'https://via.placeholder.com/300x300.png?text=机器学习', link: '/machine-learning' },
   { id: 5, title: '计算机视觉', image: 'https://via.placeholder.com/300x300.png?text=计算机视觉', link: '/computer-vision' },
