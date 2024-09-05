@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import image1 from './images/1.jpeg';
-import image2 from './images/2.jpeg';
+import image2 from './images/2.jpg';
 
 // 定义文章数据
 const articles = [
